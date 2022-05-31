@@ -17,6 +17,6 @@
               [:h1 "Hello world!"]
               [:p (str "This site is running with clojure v"
                        (clojure-version))]]]))})
-   {:ip "0.0.0.0" :port port})
+   {:port port})
   (println "Site running on" (str "http://localhost:" port)))
 
