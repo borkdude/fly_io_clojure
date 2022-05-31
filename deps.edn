@@ -1,0 +1,7 @@
+{:deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        http-kit/http-kit {:mvn/version "2.6.0-RC1"}
+        hiccup/hiccup {:mvn/version "2.0.0-alpha2"}
+        } :aliases {
+ :build ;; added by neil
+ {:deps {io.github.clojure/tools.build {:git/tag "v0.8.2" :git/sha "ba1a2bf"}}
+  :ns-default build}}}
